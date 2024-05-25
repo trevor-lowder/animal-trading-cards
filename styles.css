@@ -3,7 +3,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 0px;
+    height: 100vh;
     background-color: rgb(175, 255, 175);
 }
 
@@ -15,16 +16,19 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: white;
+    filter: drop-shadow(0px 4px 6px black);
 }
 
 .title {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
 .subtitle {
     margin-top: 0px;
+    font-size: larger;
 }
 
 img {
@@ -44,6 +48,10 @@ img {
 
 .details > p:first-child {
     font-style: italic;
+    font-weight: 600;
+}
+
+.details > p:nth-of-type(2) {
     font-weight: 600;
 }
 
