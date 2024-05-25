@@ -44,6 +44,7 @@ img {
 
 .details > p:first-child {
     font-style: italic;
+    font-weight: 600;
 }
 
 li {
