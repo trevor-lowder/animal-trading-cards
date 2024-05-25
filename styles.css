@@ -1,16 +1,29 @@
 /* add your CSS here */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(175, 255, 175);
+}
+
 .container {
-    width: 310px;
-    padding: 5px;
-    border: 1px ridge goldenrod;
+    width: 300px;
+    padding: 10px;
+    border: 5px ridge goldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .subtitle {
-    font-style: italic;
+    margin-top: 0px;
 }
 
 img {
@@ -18,13 +31,23 @@ img {
 }
 
 .details {
-    border: .5px solid black;
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    padding: 0px 10px;
 }
 
-.details>span {
+.details > ul > li > div {
     font-weight: bold;
+}
+
+.details > p:first-child {
+    font-style: italic;
 }
 
 li {
     list-style: none;
+}
+
+ul {
+    padding-left: 0px;
 }
