@@ -24,6 +24,7 @@ body {
     font-family: "Eczar", serif;
     font-size: xx-large;
     margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .subtitle {
@@ -45,6 +46,10 @@ img {
 
 .detail-name {
     font-weight: bold;
+}
+
+.scientific-name {
+    font-style: italic;
 }
 
 .details > p:first-child {
