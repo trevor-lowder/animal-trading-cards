@@ -1,4 +1,30 @@
 /* add your CSS here */
+.container {
+    width: 310px;
+    padding: 5px;
+    border: 1px ridge goldenrod;
+}
+
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subtitle {
+    font-style: italic;
+}
+
 img {
     width: 300px;
+}
+
+.details {
+    border: .5px solid black;
+}
+
+.details>span {
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
 }
